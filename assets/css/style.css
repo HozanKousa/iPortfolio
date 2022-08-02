@@ -95,8 +95,5 @@
  .item{
   margin-left: 10px;
   margin-right: 10px;
-  transition: 1s ease-out;
- }
- a :hover{
-  
+  margin-top: -3px;
  }
