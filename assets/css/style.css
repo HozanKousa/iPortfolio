@@ -4,7 +4,7 @@
     display:grid; 
     align-items: center; 
     justify-items: center;
-    
+    font-family: "IBM Plex Mono","Menlo","DejaVu Sans Mono","Lucida Console",monospace;
  }
  .container{
     width:300px; 
