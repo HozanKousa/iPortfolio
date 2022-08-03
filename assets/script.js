@@ -41,6 +41,7 @@ bgDots = [
 ];
 
 
+
 function emitLine(){
   if(conf.maxLines < lines.length)
     return;
