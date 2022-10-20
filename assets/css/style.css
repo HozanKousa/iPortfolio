@@ -1,5 +1,4 @@
-
- body{
+body{
     background:#161616;
     display:grid;  
     align-items: center; 
@@ -7,6 +6,14 @@
     font-family: "IBM Plex Mono","Menlo","DejaVu Sans Mono","Lucida Console",monospace;
     overflow: hidden;
     margin-top:10%;
+ }
+ @font-face {
+   font-family: "Wahran-Light";
+   src: url(/assets/fonts/Wahran-Light.otf) format("truetype");
+ }
+ @font-face {
+   font-family: "Wahran-Bold";
+   src: url(/assets/fonts/Wahran-Bold.otf) format("truetype");
  }
  .container{
     display:grid; 
@@ -42,4 +49,15 @@
   margin-left: 10px;
   margin-right: 10px;
   margin-top: -3.5px;
+  z-index: 2;
+ }
+ h3{
+   font-family: Wahran-Bold;
+   font-size: 20px;
+   color: white;
+ }
+ .arab{
+   font-family: Wahran-Light;
+   font-size: 20px;
+   color: white;
  }
